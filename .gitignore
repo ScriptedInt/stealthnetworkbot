@@ -1,0 +1,15 @@
+# Ignore original source code
+src/
+
+# Do not ignore the obfuscated output
+!dist/
+
+# Node modules (always ignore)
+node_modules/
+
+# OS and editor files
+.DS_Store
+*.log
+
+# Environment variables
+.env
